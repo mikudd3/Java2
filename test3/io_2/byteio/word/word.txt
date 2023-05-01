@@ -1,0 +1,1 @@
+verb:eat,adjective:terrible,verb:drink,verb:sleep,verb:play,adjective:wonderful,noun:rice,noun:meat,noun:hand,noun:hair,adjective:beautiful,adjective:expensive,adjective:horrible,adjective:lovely,adjective:silly,adjective:red,adjective:black,adjective:purple,adjective:pink,adjective:brown

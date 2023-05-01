@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehicles [
+        <!ELEMENT vehicles (cars,trucks)>
+        <!ELEMENT cars (car*)>
+        <!ELEMENT trucks (truck+)>
+        <!ELEMENT car (name,oil,loss,brand)>
+        <!ATTLIST car id CDATA #REQUIRED>
+        <!ELEMENT truck (name,oil,loss,load)>
+        <!ATTLIST truck id CDATA #REQUIRED>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT oil (#PCDATA)>
+        <!ELEMENT loss (#PCDATA)>
+        <!ELEMENT brand (#PCDATA)>
+        <!ELEMENT load (#PCDATA)>
+        ]>
+
+<vehicles>
+    <cars>
+        <car id="1">
+            <name>战神</name>
+            <oil>20</oil>
+            <loss>0</loss>
+            <brand>长城</brand>
+        </car>
+        <car id="2">
+            <name>跑得快</name>
+            <oil>40</oil>
+            <loss>20</loss>
+            <brand>红旗</brand>
+        </car>
+    </cars>
+    <trucks>
+        <truck id="3">
+            <name>大力士</name>
+            <oil>20</oil>
+            <loss>0</loss>
+            <load>5吨</load>
+        </truck>
+        <truck id="4">
+            <name>大力士二代</name>
+            <oil>30</oil>
+            <loss>30</loss>
+            <load>10吨</load>
+        </truck>
+    </trucks>
+</vehicles>

@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE University [
+        <!ELEMENT University (instructors,students)>
+        <!ELEMENT instructors (instructor*)>
+        <!ELEMENT students (student+)>
+        <!ELEMENT instructor (name,department,salary)>
+        <!ATTLIST instructor id CDATA #REQUIRED>
+        <!ELEMENT student (name,department,grade)>
+        <!ATTLIST student id CDATA #REQUIRED>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT department (#PCDATA)>
+        <!ELEMENT salary (#PCDATA)>
+        <!ELEMENT grade (#PCDATA)>
+        ]>
+
+<University>
+    <instructors>
+        <instructor id="1">
+            <name>张三</name>
+            <department>45</department>
+            <salary>8700</salary>
+        </instructor>
+        <instructor id="2">
+            <name>李四</name>
+            <department>38</department>
+            <salary>9700</salary>
+        </instructor>
+    </instructors>
+    <students>
+        <student id="3">
+            <name>王五</name>
+            <department>物理</department>
+            <grade>大一</grade>
+        </student>
+        <student id="4">
+            <name>赵六</name>
+            <department>化学</department>
+            <grade>大三</grade>
+        </student>
+    </students>
+</University>

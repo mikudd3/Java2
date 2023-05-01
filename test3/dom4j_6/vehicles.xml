@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+    <cars>
+        <car id="1" supplier="111121254544">
+            <name>战神</name>
+            <oil>20</oil>
+            <loss>0</loss>
+            <brand>长城</brand>
+        </car>
+        <car id="2">
+            <name>跑得快</name>
+            <oil>40</oil>
+            <loss>20</loss>
+            <brand>红旗</brand>
+        </car>
+    </cars>
+    <trucks>
+        <truck id="3">
+            <name>大力士</name>
+            <oil>20</oil>
+            <loss>0</loss>
+            <load>5吨</load>
+        </truck>
+        <truck id="4" supplier="900031265471">
+            <name>大力士二代</name>
+            <oil>30</oil>
+            <loss>30</loss>
+            <load>10吨</load>
+        </truck>
+    </trucks>
+</vehicles>

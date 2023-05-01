@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book id="100001">
+        <bookname>Head First Java</bookname>
+        <bookauthor>Kathy Sierra,Bert Bates</bookauthor>
+        <bookprice>89</bookprice>
+    </book>
+    <book id="100002">
+        <bookname>Effective Java</bookname>
+        <bookauthor>Joshua Bloch</bookauthor>
+        <bookprice>49</bookprice>
+    </book>
+    <book id="100003">
+        <bookname>Thinking in Java</bookname>
+        <bookauthor>Bruce Eckel</bookauthor>
+        <bookprice>109</bookprice>
+    </book>
+</books>

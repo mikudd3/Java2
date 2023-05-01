@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book id="100003">
+        <bookname>深入理解Java虚拟机：JVM高级特性与最佳实践</bookname>
+        <bookauthor>周志明</bookauthor>
+        <bookprice>79</bookprice>
+    </book>
+    <book id="100004">
+        <bookname> Java多线程编程核心技术</bookname>
+        <bookauthor>高洪岩</bookauthor>
+        <bookprice>99</bookprice>
+    </book>
+    <book id="100005">
+        <bookname>Java高并发编程详解:并发核心库+多线程设计</bookname>
+        <bookauthor>汪文君</bookauthor>
+        <bookprice>188</bookprice>
+    </book>
+</books>

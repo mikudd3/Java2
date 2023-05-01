@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+    <teachers>
+        <teacher id="1">
+            <name>zhangsan</name>
+            <age>30</age>
+            <discipline>数学</discipline>
+        </teacher>
+        <teacher id="2">
+            <name>lisi</name>
+            <age>32</age>
+            <discipline>语文</discipline>
+        </teacher>
+    </teachers>
+    <students>
+        <student id="3">
+            <name>wangwu</name>
+            <age>20</age>
+        </student>
+        <student id="4">
+            <name>zhaoliu</name>
+            <age>20</age>
+        </student>
+    </students>
+</class>
